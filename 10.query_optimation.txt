@@ -1,0 +1,10 @@
+cara optimalkan query
+
+1. pastikan query tersebut terdapat indexing yang sesuai, caranya bisa dengan di explain kita bisa melihat query tersebut COLLSCAN atau tidak. jika COLLSCAN tandanya query tersebut belum menggunakan indexing yg tepat
+2. pastikan sebelum melakukan grouping data letakkan match (filter) atau sort berdasarkan field yang sudah di set indexing terlebih dahulu supaya tidak COLLSCAN atau slow query
+3. opsi ini sebenernya kita membuat collection baru (summary) yang isinya data hasil grouping tiap bulannya. cara bisa dengan realtime atau tidak realtime
+ - cara realtime bisa kita gunakan ketika ada perubahan pada master data pesanan dilakukan query grouping ulang berdasarkan perubahan/penambahan data pada bulan tersebut secara background (used by message broker) kemudian hasilnya di update pada collection summary tersebut
+ - cara tidak realtime bisa menggunakan scheduling melakukan query dan perubahan yang sudah dijelaskan pada step diatas
+
+note
+cara no 3 akan lebih efektif karena akan lebih ringan dibanding harus query pada master datanya

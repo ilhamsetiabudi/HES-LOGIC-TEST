@@ -1,0 +1,8 @@
+berikt 4 service untuk e-commerce sederhana
+1. user-service-api -> digunakan untuk mengelola atau menghandle dari proses registrasi - login - profile user
+2. product-service-api -> digunakan untuk mengelola atau menghandle terkait product-product yang adalah
+3. payment-service-api -> digunakan untuk mengelola atau menghandle terkait proses transaksi/pembayaran dari proses jual beli product
+4. frontend-service-web -> digunakan untuk menampilkan web pada e-commerce
+
+note
+service-service tersebut exclude database

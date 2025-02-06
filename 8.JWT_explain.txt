@@ -1,0 +1,8 @@
+Cara Kerja JWT (JSON Web Token) adalah JWT dihasilkan dengan cara mengenerate data biasa berupa id pengguna, beserta key yang kita miliki saat generate token tersebut.
+dan kita dapat memberi waktu kapan expired dari token yang dihasilkan.
+
+token yang dihasilkan bisa kita return dalam API login agar frontend dapat mengambil tokennya dan digunakan untuk authentication pada API yang lain
+token tersebut akan backend terima kembali dan di proses sebagai middleware,
+token tersebut dapat kita verifikasi dengan key yang kita gunakan saat proses generate token tersebut
+setelah berhasil verifikasi token makan kita akan mendapatkan data yang kita masukkan saat generate token (datanya berupa id pengguna)
+id pengguna tersebut yang menjadi acuan untuk mengidentikasi oleh user siapa API ini dipanggil

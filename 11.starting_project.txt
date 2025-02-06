@@ -1,0 +1,5 @@
+tidak setuju
+
+memulai project tidak harus langsung dengan microservice karena menurut saya memulai project idealnya kita butuh cepat agar project bisa berjalan terlebih dahulu ketika sudah berjalan secara bisnis dan akan eskalasi baru kita pertimbangkan microservices
+
+studi case seperti yang dijelaskan diatas. project bisnis ini segera berlangsung dulu hingga dirasa butuh eskalasi maka baru dibuat microservices

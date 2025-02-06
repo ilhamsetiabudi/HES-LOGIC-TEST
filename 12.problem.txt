@@ -1,0 +1,6 @@
+masalah terberat dan cara mengatasinya
+
+1. migrasi project dari cloud provider A ke B
+
+migrasi project sangat beresiko terhadapat berlangsungnya bisnis yang sudah berjalan, jika terdapat kesalahan kecil saja makan project akan error dan bisnis akan terganggu
+cara mengatasinya menyiapkan segala sesuatu mulai dari documentasi hingga dilakukannya testing yang secara komprehensif agar tidak ada 1 pun yang terlewat proses memakan waktu yang panjang dan tidak mudah
